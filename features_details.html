@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>DBMS Project</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <img src="https://thumbs.dreamstime.com/b/color-sport-background-football-soccer-basketball-hockey-box-tennis-baseball-vector-illustration-colorful-people-silhouettes-color-139030119.jpg" width=10%>
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <span class="ml-3 text-xl">DBMS Laboratory Project</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="index.php">Home</a>
+            <a class="mr-5 hover:text-gray-900" href="features.html">Features</a>
+            <a class="mr-5 hover:text-gray-900" href="catalog.html">Sports</a>
+            <a class="mr-5 hover:text-gray-900" href="team.html">Team</a>
+          </nav>
+          <a href="adminlogin.php">
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Admin Login
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </a>
+        </div>
+      </header>
+
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <div class="text-left lg:w-2/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">Abstract</h1>
+            <p class="mb-8 leading-relaxed">
+                <p>he first feature of the application is slotting of matches. The application checks if the time slot entered for any particular sport of any particular category is valid or not.</p>
+      <p>There are four different categories considered:</p>
+      <br>• UG Boys <br>• UG Girls <br>• PG Boys <br>• PG Girls<br><br>
+      Two different matches of the same category cannot be conducted simultaneously. Two matches cannot be conducted in the same court/pitch simultaneously.<br><br>
+      The application ensures that the points are added without any error or delay. Any changes in the points or results in the tables for the individual sports will be reflected accordingly in the main points_table immediately.<br><br>
+      For the addition of points we have to keep in mind the following criteria:<br><br>
+      • Winning group games, ie basket ball and volley ball, gives a team double points.<br>
+      • Winning individual games, ie badminton and table tennis, gives a team single points.<br>
+      • If a particular college fails to put forward a team for any particular sport, they will receive
+      negative points.<br>
+      • In case there is a tie in the scores of any two teams, the team with higher number of wins gets a
+      higher position in the table.<br><br>
+      At the end of the tournament, we run a query to find the top 3 teams and then declare the prizes.<br><br>
+            </p>
+            <div class="flex justify-center">
+              <a href="features.html">  
+              <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Go Back</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+</body>
+</html>

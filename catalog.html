@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>DBMS Project</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <img src="https://thumbs.dreamstime.com/b/color-sport-background-football-soccer-basketball-hockey-box-tennis-baseball-vector-illustration-colorful-people-silhouettes-color-139030119.jpg" width=10%>
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <span class="ml-3 text-xl">DBMS Laboratory Project</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="index.php">Home</a>
+            <a class="mr-5 hover:text-gray-900" href="features.html">Features</a>
+            <a class="mr-5 hover:text-gray-900" href="catalog.html">Sports</a>
+            <a class="mr-5 hover:text-gray-900" href="team.html">Team</a>
+          </nav>
+          <a href="adminlogin.php">
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Admin Login
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </a>
+        </div>
+      </header>
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">List of Sporting Events Available:</h1>
+              <div class="h-1 w-20 bg-red-500 rounded"></div>
+            </div>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Click on any of the cards to see the standings of the different teams in that particluar sport or to see the scheduling of the differrent matches on the different courts</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/isy0qmbfazbupgmsgpnr/basektball-net" alt="content">
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Basket Ball</h2>
+                <p class="leading-relaxed text-base">Click here to know more details about this sport</p>
+                <br>
+                <a href="basketball.php">
+                <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Click Here</button>
+                </a>    
+            </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.indianexpress.com/2022/02/badminton-bai-bwf-fb.jpg" alt="content">
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Badminton</h2>
+                <p class="leading-relaxed text-base">Click here to know more details about this sport</p>
+                <br>
+                <a href="badminton.php">
+                <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Click Here</button>
+                </a>
+            </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://www.fivb.org/Vis2009/Images/GetImage.asmx?No=202033210&width=1410&height=923&stretch=uniformtofill" alt="content">
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Volley Ball</h2>
+                <p class="leading-relaxed text-base">Click here to know more details about this sport</p>
+                <br>
+                <a href="volleyball.php">
+                <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Click Here</button>
+                </a>
+            </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.indianexpress.com/2021/09/table-tennis-image.jpg" alt="content">
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Table Tennis</h2>
+                <p class="leading-relaxed text-base">Click here to know more details about this sport</p>
+                <br>
+                <a href="tennis.php">
+                <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Click Here</button>
+                </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://ae01.alicdn.com/kf/H800b18234a774f9e9387089d907afdb3e/TOYANDONA-3PCS-Metal-Award-Medals-Sports-Medals-Gold-Silver-Bronze-Style-With-Neck-Ribbon-Prize-for.jpg_Q90.jpg_.webp">
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Overall Leaderboard</h1>
+            <p class="mb-8 leading-relaxed">Click here to view the overall points of all the registered teams and their rankings in the points table</p>
+            <div class="flex justify-center">
+                <a href="leaderboard.php">
+                <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Click Here</button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>
